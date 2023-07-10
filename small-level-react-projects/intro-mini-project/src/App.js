@@ -44,12 +44,7 @@ function Skills() {
 
 function Pills({ color, name }) {
   const style = {
-    display: "inline-block",
     backgroundColor: color,
-    borderRadius: "5px",
-    fontWeight: "500",
-    fontSize: "14px",
-    padding: "1px 5px 1px 5px",
   };
   return (
     <span className="pills" style={style}>
